@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>authorize</title>
+</head>
+<body>
+<div>
+    <!-- 授权码模式 -->
+    授权码模式：<br>
+    <form method="post" action="http://localhost:53022/uaa/oauth/authorize">
+        client_id: <input type="text" name="client_id" value="c1"><br>
+        response_type: <input type="text" name="response_type" value="code"><br>
+        scope: <input type="text" name="scope" value="ROLE_ADMIN"><br>
+        code: <input type="text" name="code" value=""><br>
+        redirect_uri: <input type="text" name="redirect_uri" value="http://www.baidu.com"><br>
+        <input type="submit" value="submit">
+    </form><br>
+
+    <!-- 简化模式 response_type=token
+    http://localhost:53022/uaa/oauth/authorize?client_id=c1&response_type=token&scope=all&redirect_uri=http://www.baidu.com
+    -->
+
+    <!-- 密码模式 response_type=password -->
+    密码模式：<br>
+    <form method="post" action="http://localhost:53022/uaa/oauth/token?client_id=c1&client_secret=secret&grant_type=password&username=zhangsan&password=111">
+        client_id: <input type="text" name="client_id" value="c1"><br>
+        response_type: <input type="text" name="client_secret" value="secret"><br>
+        scope: <input type="text" name="grant_type" value="password"><br>
+        scope: <input type="text" name="username" value="zhangsan"><br>
+        code: <input type="text" name="password" value="111"><br>
+        <input type="submit" value="submit">
+    </form><br>
+
+    <!-- 客户端模式 response_type=client_credentials -->
+    客户端模式：<br>
+    <form method="post" action="http://localhost:53022/uaa/oauth/token?client_id=c1&client_secret=secret&grant_type=client_credentials">
+        client_id: <input type="text" name="client_id" value="c1"><br>
+        response_type: <input type="text" name="client_secret" value="secret"><br>
+        scope: <input type="text" name="grant_type" value="client_credentials"><br>
+        <input type="submit" value="submit">
+    </form>
+
+</div>
+</body>
+</html>

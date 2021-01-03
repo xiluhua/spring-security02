@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributed-security-order02" />
+        <module name="distributed-security-order02-jwt" />
+        <module name="distributed-security-uaa02" />
+        <module name="distributed-security-uaa02-jwt" />
+        <module name="distributed-security-uaa02-jwt-configInDb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distributed-security-order01-jwt" target="1.8" />
+      <module name="distributed-security-order02" target="1.8" />
+      <module name="distributed-security-order02-jwt" target="1.8" />
+      <module name="distributed-security-uaa02" target="1.8" />
+      <module name="distributed-security-uaa02-jwt" target="1.8" />
+      <module name="distributed-security-uaa02-jwt-configInDb" target="1.8" />
+      <module name="distributed-security02" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

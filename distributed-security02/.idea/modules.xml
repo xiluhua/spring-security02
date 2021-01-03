@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributed-security-order02/distributed-security-order02.iml" filepath="$PROJECT_DIR$/distributed-security-order02/distributed-security-order02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-security-order02-jwt/distributed-security-order02-jwt.iml" filepath="$PROJECT_DIR$/distributed-security-order02-jwt/distributed-security-order02-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-security-uaa02/distributed-security-uaa02.iml" filepath="$PROJECT_DIR$/distributed-security-uaa02/distributed-security-uaa02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-security-uaa02-jwt/distributed-security-uaa02-jwt.iml" filepath="$PROJECT_DIR$/distributed-security-uaa02-jwt/distributed-security-uaa02-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-security-uaa02-jwt-configInDb/distributed-security-uaa02-jwt-configInDb.iml" filepath="$PROJECT_DIR$/distributed-security-uaa02-jwt-configInDb/distributed-security-uaa02-jwt-configInDb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-security02.iml" filepath="$PROJECT_DIR$/distributed-security02.iml" />
+    </modules>
+  </component>
+</project>
